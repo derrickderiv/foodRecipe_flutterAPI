@@ -53,6 +53,7 @@ class AboutUs extends StatelessWidget {
               SizedBox(height: 20),
               AboutSection(),
               FoldingCellSimpleDemo(),
+              // SizedBox(height: 20),
             ],
           ),
         ),

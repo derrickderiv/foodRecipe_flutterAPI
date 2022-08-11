@@ -4,7 +4,9 @@ import 'package:food_recipe_project/home/main_food_page.dart';
 import 'package:food_recipe_project/onboardingpage/onboardingmain.dart';
 import 'package:food_recipe_project/pages/aboutus/aboutus_mainpage.dart';
 import 'package:food_recipe_project/pages/foodRecipe_detail.dart';
+import 'package:food_recipe_project/pages/profilepage.dart';
 import 'package:food_recipe_project/states/foodRecipe_cubit.dart';
+import 'package:food_recipe_project/widgets/splash_screen.dart';
 import 'package:get/get.dart';
 
 void main() {
@@ -26,6 +28,6 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.amber,
         ),
-        home: MainFoodPage());
+        home: ProfileScreen());
   }
 }
